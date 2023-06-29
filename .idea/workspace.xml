@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Resolved:&#10;1. ContainsDuplicate&#10;2. IsAnagram">
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/TopKFrequentElements.java" afterDir="false" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. GroupAnagrams&#10;2. TopKFrequentElements">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ProductOfArrayExceptSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmicTasks/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmicTasks/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,20 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TopKFrequentElements">
+  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ProductOfArrayExceptSelf" />
+      <module name="algorithmicTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmicTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmicTasks.Solution" />
       <module name="algorithmicTasks" />
@@ -73,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -93,7 +108,8 @@
       <workItem from="1687470603625" duration="175000" />
       <workItem from="1687509815494" duration="2136000" />
       <workItem from="1687514022260" duration="2983000" />
-      <workItem from="1687964170743" duration="12622000" />
+      <workItem from="1687964170743" duration="13268000" />
+      <workItem from="1688050073170" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -123,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687517429995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solved:&#10;1. GroupAnagrams&#10;2. TopKFrequentElements">
+      <created>1687980690659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687980690659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <MESSAGE value="Resolved:&#10;1. ContainsDuplicate&#10;2. IsAnagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolved:&#10;1. ContainsDuplicate&#10;2. IsAnagram" />
+    <MESSAGE value="Solved:&#10;1. GroupAnagrams&#10;2. TopKFrequentElements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. GroupAnagrams&#10;2. TopKFrequentElements" />
   </component>
 </project>

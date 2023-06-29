@@ -15,7 +15,6 @@ package algorithmicTasks;
 import java.util.*;
 
 // my solution.
-// TODO: search for better solutions
 public class TopKFrequentElements {
 
     public static void main(String[] args) {
@@ -44,6 +43,27 @@ public class TopKFrequentElements {
                     .map(Map.Entry::getKey)
                     .findAny().get();
             map.remove(result[i]);
+        }
+        return result;
+    }
+
+    //new solution using PriorityQueue
+    public int[] topKFrequent2(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+        for(int num : nums)
+        {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        PriorityQueue<Map.Entry<Integer, Integer>> priorityQueue =
+                new PriorityQueue<>((o1, o2) -> o2.getValue()- o1.getValue());
+
+        priorityQueue.addAll(map.entrySet());
+        int[] result = new int[k];
+
+        for(int i = 0; i < k; i++)
+        {
+            result[i] = Objects.requireNonNull(priorityQueue.poll()).getKey();
         }
         return result;
     }
