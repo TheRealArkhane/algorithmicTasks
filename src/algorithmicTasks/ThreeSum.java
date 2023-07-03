@@ -29,66 +29,44 @@ package algorithmicTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ThreeSum {
 
-    //TODO: Work In Progress, this is not a solution, this is part of it
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
+    public static void main(String[] args) {
+        System.out.println(threeSum(new int[]{-1, 0, 1, 2, -1, -4, 3, -2, 5, -3, 6, -3, 10, 4, 6, -7, -11, 8}));
+    }
+    //i learned the solution
+    public static List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> result = new LinkedList<>();
         Arrays.sort(nums);
-        int i;
-        int j;
-        int k;
-        for (int o = 0; o < nums.length - 2; o++) {
-            i = nums[o];
-            j = nums[o + 1];
-            k = nums[o + 2];
-            if (i == j && i != 0) {
-                continue;
-            }
-            if (i + j > 0) {
-                for (int p = o + 1; p < nums.length; p++) {
-                    k = nums[p];
-                    if (k > 0) {
-                        continue;
+        for(int i = 0; i < nums.length - 2; i++) {
+            if(i == 0 || nums[i] != nums[i - 1]) {
+                int left = i + 1;
+                int right = nums.length - 1;
+                int sum = -nums[i];
+                while(left < right) {
+                    if(nums[left] + nums[right] == sum) {
+                        result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                        while(left < right && nums[left] == nums[left + 1]) {
+                            left++;
+                        }
+                        while(left < right && nums[right] == nums[right - 1]) {
+                            right--;
+                        }
+                        left++;
+                        right--;
                     }
-                    addListOfSumToResult(result, i, j, k);
-                }
-            }
-            if (i + j < 0) {
-                for (int q = o + 1; q < nums.length; q++) {
-                    k = nums[q];
-                    if (k < 0) {
-                        continue;
+                    else if(nums[left] + nums[right] < sum) {
+                        left++;
                     }
-                    addListOfSumToResult(result, i, j, k);
-                }
-            }
-            if (i + j == 0) {
-                for (int l = o + 1; l < nums.length; l++) {
-                    k = nums[l];
-                    if (k != 0) {
-                        continue;
+                    else {
+                        right--;
                     }
-                    List<Integer> sumList = new ArrayList<>();
-                    sumList.add(i);
-                    sumList.add(j);
-                    sumList.add(k);
-                    result.add(sumList);
                 }
             }
         }
         return result;
-    }
-
-    public void addListOfSumToResult(List<List<Integer>> result, int i, int j, int k) {
-        if (i + j + k == 0) {
-            List<Integer> sumList = new ArrayList<>();
-            sumList.add(i);
-            sumList.add(j);
-            sumList.add(k);
-            result.add(sumList);
-        }
     }
 }
