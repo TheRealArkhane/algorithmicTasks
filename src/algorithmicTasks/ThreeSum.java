@@ -27,7 +27,6 @@ package algorithmicTasks;
 //        Output: [[0,0,0]]
 //        Explanation: The only possible triplet sums up to 0.
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -35,7 +34,7 @@ import java.util.List;
 public class ThreeSum {
 
     public static void main(String[] args) {
-        System.out.println(threeSum(new int[]{-1, 0, 1, 2, -1, -4, 3, -2, 5, -3, 6, -3, 10, 4, 6, -7, -11, 8}));
+        System.out.println(threeSum(new int[]{-1, 0, 1, 2, -1, -4, 3, -2, 5, -3, 6, -3, 10, 4, 6, -7, -11, 8, -12, 11, -14, 14}));
     }
     //i learned the solution
     public static List<List<Integer>> threeSum(int[] nums) {
