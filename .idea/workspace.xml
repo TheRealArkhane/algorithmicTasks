@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. ThreeSum">
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/MinStack.java" afterDir="false" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmicTasks/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmicTasks/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
+  <component name="RunManager" selected="Application.GenerateParentheses">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ContainerWithMostWater" />
       <module name="algorithmicTasks" />
@@ -60,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ProductOfArrayExceptSelf" />
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.GenerateParentheses" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.TwoSum2" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,8 @@
       <workItem from="1687964170743" duration="13268000" />
       <workItem from="1688050073170" duration="4563000" />
       <workItem from="1688295059305" duration="8899000" />
-      <workItem from="1688388030280" duration="9534000" />
+      <workItem from="1688388030280" duration="9880000" />
+      <workItem from="1688485114433" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688391216478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum">
+      <created>1688399138873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688399138873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,82 @@
     <MESSAGE value="Solved:&#10;1. LongestConsecutiveSequence&#10;2. ProductOfArrayExceptSelf&#10;Add another solution to:&#10;1. TopKFrequentElements" />
     <MESSAGE value="Solved:&#10;1. TwoSum2&#10;2. ValidPalindrome&#10;Work In Progress:&#10;1. ThreeSum" />
     <MESSAGE value="Solved:&#10;1. ThreeSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. ThreeSum" />
+    <MESSAGE value="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>30</line>
+          <properties class="algorithmicTasks.GenerateParentheses" method="generateParentheses">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
