@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved (Studied):&#10;1. GenerateParentheses">
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/SearchA2DMatrix.java" afterDir="false" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/SearchInRotatedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmicTasks/SearchA2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmicTasks/SearchA2DMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +46,22 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchA2DMatrix">
+  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ContainerWithMostWater" />
+      <module name="algorithmicTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmicTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.FindMinimumInRotatedSortedArray" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -85,21 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ThreeSum" />
-      <module name="algorithmicTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmicTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.TwoSum2" />
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.SearchInRotatedSortedArray" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
+        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
         <item itemvalue="Application.SearchA2DMatrix" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.TwoSum2" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,9 @@
       <workItem from="1688295059305" duration="8899000" />
       <workItem from="1688388030280" duration="9880000" />
       <workItem from="1688485114433" duration="1701000" />
-      <workItem from="1688735859419" duration="5361000" />
+      <workItem from="1688735859419" duration="6117000" />
+      <workItem from="1688970642567" duration="3889000" />
+      <workItem from="1689082518554" duration="7141000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -213,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688486809742</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix">
+      <created>1688741345130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688741345130</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +249,8 @@
     <MESSAGE value="Solved:&#10;1. ThreeSum" />
     <MESSAGE value="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum" />
     <MESSAGE value="Solved (Studied):&#10;1. GenerateParentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved (Studied):&#10;1. GenerateParentheses" />
+    <MESSAGE value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
