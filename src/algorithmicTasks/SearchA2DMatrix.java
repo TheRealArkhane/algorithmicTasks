@@ -21,6 +21,7 @@ public class SearchA2DMatrix {
         System.out.println(searchMatrix(new int[][]{{1}, {3}}, 0));
     }
     public static boolean searchMatrix(int[][] matrix, int target) {
+
         int indexOfArray = (matrix.length - 1) / 2;
         if (matrix.length == 1) {
             int searchIndex = search(matrix[0], target);
