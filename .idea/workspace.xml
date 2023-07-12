@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.ContainerWithMostWater" />
+}</component>
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.BestTimeToBuyAndSellStock" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.FindMinimumInRotatedSortedArray" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.BubbleSort" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.GenerateParentheses" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.LongestSubstringWithoutRepeatingCharacters" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchA2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.SearchA2DMatrix" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithmicTasks.QuickSort" />
       <module name="algorithmicTasks" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-        <item itemvalue="Application.SearchA2DMatrix" />
-        <item itemvalue="Application.GenerateParentheses" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +146,8 @@
       <workItem from="1688735859419" duration="6117000" />
       <workItem from="1688970642567" duration="3889000" />
       <workItem from="1689082518554" duration="7141000" />
+      <workItem from="1689093414561" duration="2532000" />
+      <workItem from="1689181090085" duration="4373000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -220,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688741345130</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray">
+      <created>1689091150917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689091150917</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +260,8 @@
     <MESSAGE value="Solved:&#10;1. ContainerWithMostWater&#10;2. MinStack&#10;Updated:&#10;1. ThreeSum" />
     <MESSAGE value="Solved (Studied):&#10;1. GenerateParentheses" />
     <MESSAGE value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
+    <MESSAGE value="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +334,66 @@
           <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
           <line>39</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
