@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray">
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +149,8 @@
       <workItem from="1688970642567" duration="3889000" />
       <workItem from="1689082518554" duration="7141000" />
       <workItem from="1689093414561" duration="2532000" />
-      <workItem from="1689181090085" duration="4373000" />
+      <workItem from="1689181090085" duration="4456000" />
+      <workItem from="1689688986789" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689091150917</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters">
+      <created>1689185533855</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689185533855</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +271,8 @@
     <MESSAGE value="Solved (Studied):&#10;1. GenerateParentheses" />
     <MESSAGE value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
     <MESSAGE value="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
+    <MESSAGE value="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,66 +345,6 @@
           <url>file://$PROJECT_DIR$/src/algorithmicTasks/GenerateParentheses.java</url>
           <line>39</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
