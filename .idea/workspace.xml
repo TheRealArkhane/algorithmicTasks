@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters">
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="86248a8a-bf47-463c-a3e2-4c0ac7463f86" name="Changes" comment="Solved:&#10;1. ReorderList">
+      <change afterPath="$PROJECT_DIR$/src/algorithmicTasks/ReorderList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithmicTasks/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,8 @@
       <workItem from="1689082518554" duration="7141000" />
       <workItem from="1689093414561" duration="2532000" />
       <workItem from="1689181090085" duration="4456000" />
-      <workItem from="1689688986789" duration="2623000" />
+      <workItem from="1689688986789" duration="3437000" />
+      <workItem from="1689874001238" duration="2010000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1687371225564</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689185533855</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Solved:&#10;1. LongestSubstringWithoutRepeatingCharacters&#10;2. ReverseLinkedList&#10;3. MergeTwoSortedLists (Studied)">
+      <created>1689691867566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689691867566</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +277,9 @@
     <MESSAGE value="Solved:&#10;1. BinarySearch&#10;2. SearchA2DMatrix" />
     <MESSAGE value="Solved:&#10;1. FindMinimumInRotatedSortedArray&#10;2. SearchInRotatedSortedArray" />
     <MESSAGE value="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. BestTimeToBuyAndSellStock&#10;In Progress:&#10;1. LongestSubstringWithoutRepeatingCharacters" />
+    <MESSAGE value="Solved:&#10;1. LongestSubstringWithoutRepeatingCharacters&#10;2. ReverseLinkedList&#10;3. MergeTwoSortedLists (Studied)" />
+    <MESSAGE value="Solved:&#10;1. ReorderList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved:&#10;1. ReorderList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
